@@ -30,7 +30,7 @@
             </nav>
         </div>
         <div class="header__contact">
-            <span><a href="https://app.amfi.finance/pt/login" title="Invista agora" target="_blank">Invista agora</a></span>
+            <span><a href="https://app.amfi.finance/pt/register" title="Invista agora" target="_blank">Invista agora</a></span>
         </div>
     </div>
 
@@ -40,7 +40,7 @@
             <img src="assets/brand/logo.svg" alt="Stockash Logo" />
         </div>
         <div class="header__contact">
-            <span><a href="https://app.amfi.finance/pt/login" title="Invista agora" target="_blank">Invista agora</a></span>
+            <span><a href="https://app.amfi.finance/pt/register" title="Invista agora" target="_blank">Invista agora</a></span>
             <input id='header__menu-toggle' type='checkbox' />
             <label for='header__menu-toggle' class='header__menu-btn-container'>
                 <div class='header__menu-btn'></div>
@@ -76,7 +76,7 @@
         <div class="banner__contents">
             <h1 class="title">A maneira mais inteligente de extrair liquidez das suas Stock Options</h1>
             <p class="description">Somos a primeira fintech de crédito brasileira a fornecer soluções de Liquidity-as-a-Service para colaboradores com plano de Stock Options, desde startups a companhias abertas</p>
-            <span><a href="https://app.amfi.finance/pt/login" class="cta" title="Comece já" target="_blank">Comece já</a></span>
+            <span><a href="#contato" class="cta" title="Comece já">Comece já</a></span>
         </div>
         <div class="banner__image">
             <img src="./assets/images/banner/banner.webp" alt="Stockash banner principal" />
@@ -119,13 +119,13 @@
             <h2 class="title"><span class="title-color">Nossas</span> soluções</h2>
         </div>
         <div class="our-solutions-container">
-            <a href="https://app.amfi.finance/pt/login" target="_blank">
+            <a href="#contato">
                 <div class="our-solutions-box-1">
                     <h2 class="title">Easy Options - Exerça suas Stock Options</h2>
                     <p class="description">Consiga o dinheiro para exercer suas tão suadas Stock Options</p>
                 </div>
             </a>
-            <a href="https://app.amfi.finance/pt/login" target="_blank">
+            <a href="#contato">
                 <div class="our-solutions-box-2">
                     <h2 class="title">Equity Flex - Consiga dinheiro usando suas Ações</h2>
                     <p class="description">Transforme suas ações em dinheiro para usar como quiser, e o melhor, você não precisa vender uma única ação</p>
@@ -133,7 +133,7 @@
             </a>
         </div>
         <div class="our-solutions-calculation">
-            <a href="https://app.amfi.finance/pt/login" target="_blank">Conheça nossa calculadora</a>
+            <a href="#contato">Fale Conosco</a>
         </div>
     </div>
 
@@ -191,7 +191,11 @@
 </section>
 
 <!-- Calculator -->
-
+<section class="opportunities">
+        <div class="opportunities__container">
+            Oportunidades
+        </div>
+</section>
 
 <!-- Employees -->
 <section class="employees">    
