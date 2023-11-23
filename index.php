@@ -132,9 +132,6 @@
                 </div>
             </a>
         </div>
-        <div class="our-solutions-calculation">
-            <a href="#contato">Fale Conosco</a>
-        </div>
     </div>
 
     <!-- Benefícios -->
