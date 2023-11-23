@@ -13,31 +13,51 @@
     <!-- Desktop -->
     <div class="desktop-mode">
         <div class="header__logo">
-            <img src="assets/brand/brand.webp" alt="Stockash Logo" />
+            <img src="assets/brand/logo.svg" alt="Stockash Logo" />
         </div>
         <div class="header__menu">
             <nav>
                 <ul>
-                    <li><a title="A Stockash" href="#top">A Stockash</a></li>
+                    <li><a title="A Stockash" href="#stockash">A Stockash</a></li>
                     <li><a title="Soluções" href="#solucoes">Soluções</a></li>
                     <li><a title="Benefícios para os colaboradores" href="#colaboradores">Para os colaboradores</a></li>
                     <li><a title="Benefícios para o empregador" href="#empregadores">Para o empregador</a></li>
                     <li><a title="Dúvidas" href="#duvidas">Dúvidas</a></li>
+                    <li><a title="Na Mídia" href="#midia">Na Mídia</a></li>
+                    <li><a title="Contato" href="#contato">Contato</a></li>
+                    <li><a title="Quem Somos" href="./sobre">Quem somos</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header__contact">
-            <span><a href="cadastrar" title="Começar">Começar</a></span>
+            <span><a href="https://app.amfi.finance/pt/login" title="Invista agora" target="_blank">Invista agora</a></span>
         </div>
     </div>
 
     <!-- Mobile -->
     <div class="mobile-mode">
         <div class="header__logo">
-            <img src="assets/brand/brand-mobile.webp" alt="Stockash Logo" />
+            <img src="assets/brand/logo.svg" alt="Stockash Logo" />
         </div>
         <div class="header__contact">
-            <span><a href="cadastrar" title="Começar">Começar</a></span>
+            <span><a href="https://app.amfi.finance/pt/login" title="Invista agora" target="_blank">Invista agora</a></span>
+            <input id='header__menu-toggle' type='checkbox' />
+            <label for='header__menu-toggle' class='header__menu-btn-container'>
+                <div class='header__menu-btn'></div>
+            </label>
+
+            <nav class='header__menu-mobile'>
+                <ul>
+                    <li><a title="A Stockash" href="#stockash">A Stockash</a></li>
+                    <li><a title="Soluções" href="#solucoes">Soluções</a></li>
+                    <li><a title="Benefícios para os colaboradores" href="#colaboradores">Para os colaboradores</a></li>
+                    <li><a title="Benefícios para o empregador" href="#empregadores">Para o empregador</a></li>
+                    <li><a title="Dúvidas" href="#duvidas">Dúvidas</a></li>
+                    <li><a title="Na Mídia" href="#midia">Na Mídia</a></li>
+                    <li><a title="Contato" href="#contato">Contato</a></li>
+                    <li><a title="Quem Somos" href="./sobre">Quem somos</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
@@ -56,7 +76,7 @@
         <div class="banner__contents">
             <h1 class="title">A maneira mais inteligente de extrair liquidez das suas Stock Options</h1>
             <p class="description">Somos a primeira fintech de crédito brasileira a fornecer soluções de Liquidity-as-a-Service para colaboradores com plano de Stock Options, desde startups a companhias abertas</p>
-            <span><a href="cadastrar" class="cta" title="Comece já">Comece já</a></span>
+            <span><a href="http://stockash.com/login" class="cta" title="Comece já" target="_blank">Comece já</a></span>
         </div>
         <div class="banner__image">
             <img src="./assets/images/banner/banner.webp" alt="Stockash banner principal" />
@@ -67,6 +87,7 @@
 <!-- Colaboradores -->
 <section class="collaborator">
     <!-- Sliders -->
+    <div id="stockash"></div>
     <div class="slide-desktop">
         <div class="slide-box-item-desktop">
             <p>Democratizamos o acesso à liquidez dos colaboradores através de suas Stock Options, de forma simples e inteligente.</p>
@@ -98,14 +119,21 @@
             <h2 class="title"><span class="title-color">Nossas</span> soluções</h2>
         </div>
         <div class="our-solutions-container">
-            <div class="our-solutions-box-1">
-                <h2 class="title">Easy Options - Exerça suas Stock Options</h2>
-                <p class="description">Consiga o dinheiro para exercer suas tão suadas Stock Options</p>
-            </div>
-            <div class="our-solutions-box-2">
-                <h2 class="title">Equity Flex - Consiga dinheiro usando suas Ações</h2>
-                <p class="description">Transforme suas ações em dinheiro para usar como quiser, e o melhor, você não precisa vender uma única ação</p>
-            </div>
+            <a href="http://stockash.com/login" target="_blank">
+                <div class="our-solutions-box-1">
+                    <h2 class="title">Easy Options - Exerça suas Stock Options</h2>
+                    <p class="description">Consiga o dinheiro para exercer suas tão suadas Stock Options</p>
+                </div>
+            </a>
+            <a href="http://stockash.com/login" target="_blank">
+                <div class="our-solutions-box-2">
+                    <h2 class="title">Equity Flex - Consiga dinheiro usando suas Ações</h2>
+                    <p class="description">Transforme suas ações em dinheiro para usar como quiser, e o melhor, você não precisa vender uma única ação</p>
+                </div>
+            </a>
+        </div>
+        <div class="our-solutions-calculation">
+            <a href="http://stockash.com/login" target="_blank">Conheça nossa calculadora</a>
         </div>
     </div>
 
@@ -161,6 +189,9 @@
         </div>
     </div>
 </section>
+
+<!-- Calculator -->
+
 
 <!-- Employees -->
 <section class="employees">    
@@ -218,13 +249,15 @@
         
     </div>
     <div class="know-more">
-        <a class="know-more__link" href="cadastrar" title="Clique para se cadastrar">Quero me cadastrar</a>
+        <a class="know-more__link" href="#contato" title="Clique para se cadastrar">Quero entrar em contato</a>
     </div>
 </section>
 
 <section class="options">
     <div class="options__container">
-        <h2 class="title">Você tem Opções? Nós te oferecemos as melhores Opções!</h2>
+        <span class="title">
+            <img src="./assets/brand/unlock.svg" alt="unlock" />
+        </span>
     </div>
 </section>
 
@@ -238,6 +271,16 @@
         <div>
             <p class="description"><strong>attix</strong> é um programa de inovação do <strong>Mattos Filho</strong>.<br />
             Startups criteriosamente selecionadas participam de sessões de mentoria de produtos com seus especialistas, mantendo um contato próximo com Mattos Filho.</p>
+        </div>
+    </div>
+    <div class="bizhub__container">
+        <div class="bizhub-logo">
+            <a target="_blank" href="https://www.bizhub.com.br/" title="Acesse o site da Bizhub">
+                <img src="./assets/brand/Bizhub.png" alt="Bizhub" />
+            </a>
+        </div>
+        <div>
+            <p class="description">Ecossistema de inovação e tecnologia da Alvarez & Marsal</p>
         </div>
     </div>
 </section>
@@ -375,10 +418,30 @@
     </div>
 </section>
 
+
+<!-- Estadão -->
+<section class="state" id="midia">
+    <h5 class="state__title">Stockash <span>na mídia</span></h5>
+    <div class="state__links">
+        <a href="https://www.estadao.com.br/link/inovacao/o-perfil-de-startups-que-conseguem-investimentos-mudou-veja-o-que-funciona/" class="state__link" target="_blank">
+            <img src="./assets/images/state/state.webp" alt="Image do Estadão" />
+            <p class="description">O perfil de Startups que conseguem investimentos mudou: veja o que funciona</p>
+        </a>
+
+        <a href="https://valor.globo.com/financas/criptomoedas/noticia/2023/07/19/fintech-que-adianta-stock-options-tokeniza-nota-comercial-de-r-110-mil.ghtml" class="state__link" target="_blank">
+            <img src="./assets/images/state/valor.webp" alt="Image do Valor Econômico" />
+            <p class="description">Fintech que adianta 'stock options' tokeniza nota comercial de R$ 110 mil</p>
+        </a>
+    </div>
+</section>
+
 <footer class="footer">
+    <div class="footer__go-to-top">
+        <a href="#top"><img src="./assets/brand/to-top.svg" alt="Go to top" /></a>
+    </div>
     <section class="footer__container">
         <div class="footer__col-left">
-            <img src="./assets/brand/brand.webp" alt="Stockash brand">
+            <img src="./assets/brand/logo-footer.svg" alt="Stockash brand">
             <p class="description">A Stockash é uma plataforma digital que atua como correspondente Bancário para facilitar o processo de contratação de empréstimos. Como Correspondente Bancário, seguimos as diretrizes da Resolução nº 3.954 do Banco Central do Brasil. Atenção: Em nenhuma hipótese solicitamos qualquer tipo de depósito, pagamento ou valor antecipado para análise cadastral ou aprovação do seu empréstimo. Em caso de dúvidas, entre em contato conosco em nossos canais oficiais.</p>
             <div class="social-media">
                 <div class="email">
@@ -395,13 +458,18 @@
         <div class="separator"></div>
     </section>
     <section class="copyright">
-        <p class="item">© Stockash Consultoria em Credito LTDA - 49.454.379/0001-07.
-        <br>2023 - Todos os direitos reservados.</p>
+        <p class="item">© Stockash Consultoria em Credito LTDA - 49.454.379/0001-07.<br>
+2023 - Todos os direitos reservados. <a href="./politicas-de-privacidade">Políticas de Privacidade.</a></p>
     </section>
+    
+    <a class="linkedin__fixed" title="Entre em contato pelo WhatsApp" target="_blank" href="https://www.linkedin.com/company/stockash/">
+        <img src="./assets/brand/linkedin.svg" alt="Linkedin logo fixed" />
+    </a>
 
     <a class="whatsapp__fixed" title="Entre em contato pelo WhatsApp" target="_blank" href="https://api.whatsapp.com/send?phone=5511948819000&text=Conheci%20a%20Stockash%20pelo%20site.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es">
         <img src="./assets/images/footer/whatsapp-icon.svg" alt="Logotipo do WhatsApp" />
     </a>
+
 </footer>
 
 <?php require_once './pages/includes/footer.pages.php'; ?>
