@@ -190,7 +190,6 @@
 <!-- Calculator -->
 <section class="opportunities">
         <div class="opportunities__container">
-            Oportunidades
         </div>
 </section>
 
