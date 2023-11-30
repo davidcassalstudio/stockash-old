@@ -25,7 +25,7 @@
                     <li><a title="Dúvidas" href="#duvidas">Dúvidas</a></li>
                     <li><a title="Na Mídia" href="#midia">Na Mídia</a></li>
                     <li><a title="Contato" href="#contato">Contato</a></li>
-                    <li><a title="Quem Somos" href="./sobre">Quem somos</a></li>
+                    <li><a title="Quem Somos" href="./sobre">Quem somos...</a></li>
                 </ul>
             </nav>
         </div>
